@@ -1,9 +1,9 @@
 {
-  "name": "emojipacks",
-  "description": "CLI to upload emojis to Slack",
+  "name": "emojipacks-local",
+  "description": "CLI to upload (local) emojis to Slack",
   "version": "0.2.1",
-  "author": "Andy Jiang",
-  "main": "./bin/emojipacks",
+  "author": "Thomas Baumbach",
+  "main": "./bin/emojipacks-local",
   "keywords": [
     "emojis",
     "emoji",
@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/lambtron/emojipacks"
+    "url": "https://github.com/thbaumbach/emojipacks-local"
   },
   "engines": {
     "node": ">= 0.11.x",
@@ -30,7 +30,7 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "emojipacks": "./bin/emojipacks"
+    "emojipacks": "./bin/emojipacks-local"
   },
   "dependencies": {
     "chalk": "^1.1.0",
@@ -45,11 +45,7 @@
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
-    "grunt": "^0.4.3",
-    "grunt-yaml-validator": "^0.7.3",
-    "grunt-cli": "^0.1.13"
   },
   "scripts": {
-    "test": "grunt travis --verbose"
   }
 }
