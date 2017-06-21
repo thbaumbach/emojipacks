@@ -2,13 +2,15 @@
 
 > CLI to bulk upload emojis to your Slack! Pimped to accept local files/directories instead of YAML
 
+Forked from [lambtron's emojipack](https://github.com/lambtron/emojipacks)
+
 ## Install
 
 *Note you must have `node` and `npm` installed. If you don't, go to [nodejs.org](https://www.nodejs.org) and follow the install instructions there.*
 
 ```bash
-$ git clone git@github.com:lambtron/emojipacks.git
-$ cd emojipacks
+$ git clone https://github.com/thbaumbach/emojipacks-local.git
+$ cd emojipacks-local
 $ make
 ```
 
@@ -59,7 +61,7 @@ $ emojipacks-local -s <subdomain> -e <email> -p <password> -y <yaml_file>
 This script will essentially log into your Slack and then submit a `POST` request on the emoji upload form page. If you are seeing errors, make sure that:
 - **you have Slack privileges to add custom emojis**: otherwise, the script won't be able to get to the emoji upload form
 - **you disabled two-factor authentication**: again, having two-factor enabled will prevent the script from getting to the necessary emoji upload form
-- **your credentials are correct**: if you have done all of the following correctly try running the command **emojipacks -d**
+- **your credentials are correct**: if you have done all of the following correctly try running the command **emojipacks-local -d**
 
 ## License (MIT)
 

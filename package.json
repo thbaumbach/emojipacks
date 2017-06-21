@@ -30,7 +30,7 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "emojipacks": "./bin/emojipacks-local"
+    "emojipacks-local": "./bin/emojipacks-local"
   },
   "dependencies": {
     "chalk": "^1.1.0",
