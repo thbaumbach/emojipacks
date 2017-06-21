@@ -1,4 +1,4 @@
-# emojipacks-local
+# emojipacks-local (WORK-IN-PROGRESS)
 
 > CLI to bulk upload emojis to your Slack! Pimped to accept local files/directories instead of YAML
 

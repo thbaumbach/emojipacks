@@ -16,7 +16,7 @@ program
   .option('-s, --subdomain [value]', 'Your Slack subdomain')
   .option('-e, --email [value]', 'Admin email address')
   .option('-p, --password [value]', 'Password for admin email')
-  .option('-y, --pack [value]', 'YAML emoji pack')
+  .option('-y, --pack [value]', 'path to directory containing jpg/png images')
   .parse(process.argv);
 
 /**
