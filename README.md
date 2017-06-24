@@ -1,6 +1,6 @@
 # emojipacks-local (WORK-IN-PROGRESS)
 
-> CLI to bulk upload emojis to your Slack! Pimped to accept local files/directories instead of YAML
+> CLI to bulk upload emojis to your Slack! Pimped to accept a local directory containing the emojis instead of a YAML file
 
 Forked from [lambtron's emojipack](https://github.com/lambtron/emojipacks)
 
@@ -28,7 +28,7 @@ It'll ask you a few questions:
 Slack subdomain: 20percentclub
 Email address login: andyjiang@gmail.com
 Password: *********
-Path or URL of Emoji yaml file: ./packs/futurama.yaml
+Path to directory containing emoji images: ./packs/futurama
 ```
 
 Then, let it work its magic:
@@ -50,10 +50,10 @@ Uploaded emojis
 
 ## Optionally Pass Command Line Parameters
 
-This will allow for easier batch uploading of multiple yaml files
+This will allow for easier batch uploading
 
 ```bash
-$ emojipacks-local -s <subdomain> -e <email> -p <password> -y <yaml_file>
+$ emojipacks-local -s <subdomain> -e <email> -p <password> -y <directory>
 ```
 
 ## Troubleshooting
